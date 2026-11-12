@@ -3,6 +3,7 @@ body {
 }
 
 nav ul {
+
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -16,44 +17,120 @@ header {
     left: 50%;
     transform: translate(-50%);
     z-index: 10;
-display: flex;
-justify-content: space-around;
-align-items: center;
-width: 80%;
-padding: 20px 40px;
-border-radius: 50px;
-background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    padding: 20px 40px;
+    border-radius: 50px;
+    background-color: white;
 }
 
 .hero-section {
-background-image: url(assets/img2.webp);
-background-size: cover;
-background-position: center;
-height: 80vh;
-display: flex;
-align-items: center;
-justify-content: flex-start;
+    background-image: url(assets/img2.webp);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
+
 .hero-section div {
-margin-left: 10%;
-text-align: left;
-max-width: 600px;
+    margin-left: 10%;
+    text-align: left;
+    max-width: 600px;
 }
 
 .hero-section h1 {
-font-family: sans-serif;
-color: black;
-margin-bottom: 30px;
+    font-family: sans-serif;
+    color: rgb(4, 3, 2);
+    margin-bottom: 30px;
 }
 
 .hero-section a {
+    text-decoration: none;
+    color: black;
+    padding: 12px 28px;
+    border: 2px solid white;
+    border-radius: 30px;
+    color: black;
+    margin-right: 15px;
+    background-color: white;
+}
+
+h2 {
+    color: rgb(175, 151, 116);
+    font-family: sans-serif;
+    justify-content: center;
+    display: flex;
+}
+
+p {
+    font-family: sans-serif;
+    justify-content: center;
+    display: flex;
+    
+}
+
+.container {
+    background-color: rgb(214, 205, 191);
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    max-width: 1100px;
+    margin: 60px auto;
+    gap: 60px;
+}
+
+.image-chambre {
+    flex: 1 ;
+}
+
+
+.image-chambre img {
+height: auto;
+display: block;
+}
+
+.container h2 {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.container p {
+    justify-content:left;
+}
+
+footer { 
+background-color: antiquewhite;
 text-decoration: none;
-color: black;
-padding: 12px 28px;
-border: 2px solid white;
-border-radius: 30px;
-color: black;
-margin-right: 15px;
-background-color: white;
+
+}
+
+footer img {
+    height: 100px;
+    justify-content: center;
+    display: flex;
+
+}
+
+.bloc img{
+  height: 300px;
+
+}
+
+.section-réalisation {
+    max-width: 1100px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+.section-réalisation h2 {
+    text-align: center;
+    font-size: 32px;
+    color: antiquewhite;
+    margin-bottom: 50px;
+    align-items: center;
 }
 
